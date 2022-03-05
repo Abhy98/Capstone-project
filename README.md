@@ -57,13 +57,12 @@ price: Price of the product.
 asin: ID of the product, e.g., 0000031852
 
 
-3. pos_words.txt : This is a text file that contains a corpus of positive words. This file can help you in extracting some features out of the review text. There are multiple 
-   sources available online that gives you a corpus of positive negative words. You can also customise it based on your application.
+3. pos_words.txt : This is a text file that contains a corpus of positive words. This file can help in extracting some features out of the review text. There are multiple 
+   sources available online that gives you a corpus of positive negative words. we can also customise it based on your application.
  
 
 4. neg_words.txt : Similar to the corpus of positive words, this text file contains a list of words that can be a part of the negative reviews of the users.
 
 
-5. Stop_words_long.txt: In the previous modules, you had learnt to remove stopwords using the NLTK library. One drawback of it is, the negation words like nor, not, never are 
-considered as stopwords. Remove those words may not affect a spam/ham classification, but it will definitely affect the sentiment classification. Hence, we have provided you 
-with a customised list of stop words which you can use it for the analysis.
+5. Stop_words_long.txt: Removing stopwords using the NLTK library where the drawback of it is, the negation words like nor, not, never are 
+considered as stopwords.Remove those words may not affect a spam/ham classification.
